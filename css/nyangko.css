@@ -1,0 +1,87 @@
+/** Fixed Default theme */
+.content-area {
+	overflow: hidden;
+}
+.animated-sections {
+	margin-top: 30px;
+	height: 100%;
+	height: calc(100% - 30px);
+}
+
+.animated-section.section-active {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+
+/** Custom Theme */
+.app-bar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	z-index: 100;
+	background: #444444;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	padding: 5px 10px 3px;
+}
+
+.app-bar .app-controller {
+	position: relative;
+	align-self: center;
+	padding: 0 10px 7px;
+}
+
+.app-controller button {
+	position: relative;
+	border-radius: 50%;
+	padding:5px;
+	width: 15px;
+	height: 15px;
+	margin: 0 3px;
+	background-color: #616a77;
+	opacity: 0.6;
+	border: none;
+	cursor:not-allowed;
+}
+
+.app-controller button:before {
+	content: ' ';
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 9px;
+}
+
+.app-controller button:first-child {
+	background-color: #ff5f57;
+	border: 1px solid #e4554f;
+	cursor: pointer;
+}
+.app-controller button:not(:disabled):hover {
+	opacity: 1;
+}
+.app-controller button:not(:disabled):hover::before {
+	content:'X';
+}
+
+.app-bar .app-date,
+.app-time {
+	align-self: center;
+	color: #c8c8c8;
+	font-weight: 500;
+}
+
+.app-bar .app-date {
+	margin-left: auto;
+	
+}
+
+.app-bar .app-time {
+	min-width: 62px;
+	margin-left: 10px;
+}
