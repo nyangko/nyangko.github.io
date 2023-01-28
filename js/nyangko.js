@@ -127,7 +127,7 @@ function movePrevReferrer() {
 		*/
 
 		let htmlItems = [
-			`<small>기초 &lt; 경험있음 &lt; 일부 이해 &lt; 가끔 사용 &lt; 자주 사용</small>`
+//			`<small>기초 &lt; 경험있음 &lt; 일부 이해 &lt; 가끔 사용 &lt; 자주 사용</small>`
 		];
 		Object.entries(skillMap).map((row) => {
 			let copyTemplate = template;
