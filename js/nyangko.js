@@ -276,7 +276,6 @@ function movePrevReferrer() {
 					'개발 언어': 'PHP, HTML/SCSS, NodeJS, VueJS',
 					'진행 인원': '4인(기획자 1, 개발자 2, 디자이너 1)',
 					'참여 내용': [
-						'[구조 일부 설계, 구현, 적용]',
 						'(Mysql, Redis) DB 일부 설계',
 						'(HTML/CSS, NodeJS, VueJS) 웹페이지 일부 작업',
 						'(PHP) Server 일부 설계 및 작업',
@@ -296,7 +295,6 @@ function movePrevReferrer() {
 					'개발 언어': 'PHP, HTML/SCSS, NodeJS, VueJS',
 					'진행 인원': '5인(기획자 1, 개발자 3, 디자이너 1)',
 					'참여 내용': [
-						'[구조 일부 설계, 구현, 적용]',
 						'(Mysql, Redis) DB 일부 설계',
 						'(HTML/SCSS, NodeJS, VueJS) 웹페이지 일부 작업',
 						'(PHP) Server 일부 설계 및 작업',
@@ -678,7 +676,6 @@ function movePrevReferrer() {
 					'개발 언어': 'PHP, Smarty, HTML/CSS, Javascript',
 					'진행 인원': '4인(기획자 1, 개발자 2, 디자이너 1)',
 					'참여 내용': [
-						'[구조 일부 설계, 구현, 적용]',
 						'(Mysql, Redis, Sphinx) DB 구조 설계',
 						'(HTML/CSS, Jquery) 반응형 웹페이지 작업',
 						'(PHP) Server 설계 및 작업',
@@ -689,7 +686,7 @@ function movePrevReferrer() {
 			},
 			{
 				project: 'Web/Server',
-				date: '2017.7 ~ 2019.2 (구현, 적용, 유지보수)',
+				date: '2017.7 ~ 2019.2',
 				title: 'Vertical Mining',
 				subTitle: '가상화폐 채굴 (Ethereum, Bitcoin) 시스템 모니터링 및 Diskless O/S',
 				desc: {
