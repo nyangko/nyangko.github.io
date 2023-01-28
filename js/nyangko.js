@@ -77,6 +77,7 @@ function movePrevReferrer() {
 			'Typescript': { lv: 4, per: 79 },
 			'VueJS 2': { lv: 5, per: 93 },
 			'VueJS 3': { lv: 2, per: 21 },
+			'React': { lv: 1, per: 19 },
 			'Swift': { lv: 4, per: 79 },
 			'Objective-C': { lv: 3, per: 58 },
 			'Python': { lv: 2, per: 26 },
