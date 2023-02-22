@@ -106,6 +106,20 @@ ul.disc-list {
 }
 
 /** Career */
+.knowledges li {
+	padding: 1px 8px;
+}
+
+.knowledges li .knowledges-item {
+	display: flex;
+	align-items: center;
+}
+.knowledges li img {
+	display:inline-block;
+	margin-right: 5px;
+}
+
+
 .career-list ul {
 	list-style: none;
 	padding: 0;
